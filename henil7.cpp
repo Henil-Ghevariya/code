@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-{ /* converts minutes into hours */
+{ /* convert minutes into hours */
  int a,b;
  printf("enter number of minutes:");
  scanf("%d",&a); //input
