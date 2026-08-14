@@ -4,7 +4,7 @@ int main()
  float a,b;
  printf("enter the amount of celcius:");
  scanf("%f",&a); //input celcius
- b=9*a/5+32 ; //calculate the Fahrenheit
+ b=9.0/5*a+32 ; //calculate the Fahrenheit
  printf("the amount of fahrenheit is:%f",b); // output fahrenheit
  return 0;
 } 
