@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{ /*net sales*/
+ float a,b;
+ printf("enter the gross salary:");
+ scanf("%f",&a);
+ if(a>=20000)
+  {
+   b=a-a*0.15;
+   printf("the net slaes is %f",b);
+  }
+ else 
+ if(a>=10000 && a<20000)
+  {
+   b=a-a*0.10;
+   printf("the net slaes is %f",b);
+  }
+ else
+  {
+   printf("no discount");
+  }
+ return 0;
+}   
